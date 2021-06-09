@@ -1,0 +1,108 @@
+body{
+    background-image: url("weather.jpg");
+    background-color: #cccccc;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    
+    display: grid;
+    grid-template-rows: auto;
+    /* grid-template-columns:  */
+    height:100vh;
+    color: #000000;
+    justify-content: center;
+    grid-gap: none;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.entry{
+    margin:auto;
+    background: rgba(21, 20, 36, 0.4);
+    font-weight: 550;
+}
+
+
+
+.headline {
+   
+    font-family: 'Copperplate', Fantasy;
+    font-size: 50px;
+}
+
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 35px;
+    font-weight:600;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#ece7ff;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background: #031d55;
+    color: #f7f7ff;
+    justify-content: left;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    display: flex;
+    
+
+}
+button:hover{
+    background-color: #008CBA;
+    color: rgb(3, 0, 0);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    margin: auto;
+    background:#ece7ff;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #000000; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #000000; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #000000; 
+    font-family: 'Oswald', sans-serif;
+
+} 
