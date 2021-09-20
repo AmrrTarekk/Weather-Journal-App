@@ -7,7 +7,7 @@ The project is to:
 * Create a local server using node.js 
 * Create an app using express()
 * Get data from external API
-* Create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+* Create an asynchronous web app that uses OpenWeatherMap API and uses data to dynamically update the UI. 
 
 
 ## Instructions
